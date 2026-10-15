@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Green Garden - Plants, seeds and gardening essentials.">
+    <title>Green Garden | A Greener Tomorrow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header>
+    <div class="container navbar">
+        <a class="logo" href="#home">🌿 GREEN GARDEN</a>
+
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-icons">
+            <a href="#products" aria-label="Browse products">⌕</a>
+            <a href="#products" aria-label="Shopping section">🛒</a>
+        </div>
+    </div>
+</header>
+
+<main id="main">
+
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="subtitle">PLANTS MAKE A HAPPIER HOME</span>
+                <h1>Bring Nature Into Your Home</h1>
+                <p>
+                    Discover beautiful plants, seeds and gardening
+                    essentials to create a greener, healthier
+                    and happier living space.
+                </p>
+                <a href="#products" class="btn">SHOP NOW →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits" aria-label="Our benefits">
+        <div class="container benefits-grid">
+            <div class="benefit">
+                <span>🌿</span>
+                <div>
+                    <h3>Premium Plants</h3>
+                    <p>Healthy and high-quality plants for your home.</p>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <span>🚚</span>
+                <div>
+                    <h3>Reliable Delivery</h3>
+                    <p>Safe delivery to your doorstep.</p>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <span>♡</span>
+                <div>
+                    <h3>Gardening Support</h3>
+                    <p>Helpful advice for a greener tomorrow.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products section" id="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="heading-line"></div>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="ảnh 2.jpg"
+                         alt="Beautiful indoor potted plant">
+                    <div class="product-info">
+                        <h3>Indoor Plants</h3>
+                        <p>Bring freshness and positivity to your home.</p>
+                        <div class="product-bottom">
+                            <strong>$18.00</strong>
+                            <a href="#contact" class="small-btn">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="ảnh 3.jpg"
+                         alt="Colorful flowers in bloom">
+                    <div class="product-info">
+                        <h3>Flower Seeds</h3>
+                        <p>Grow your own little paradise with flowers.</p>
+                        <div class="product-bottom">
+                            <strong>$12.00</strong>
+                            <a href="#contact" class="small-btn">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="ảnh 1.jpg"
+                         alt="Gardening tools and supplies">
+                    <div class="product-info">
+                        <h3>Gardening Collection</h3>
+                        <p>Essential tools and accessories for gardening.</p>
+                        <div class="product-bottom">
+                            <strong>$25.00</strong>
+                            <a href="#contact" class="small-btn">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="container about-grid">
+            <img src="ảnh 1.jpg"
+                 alt="Gardening activity">
+
+            <div class="about-text">
+                <h2>About Us</h2>
+                <div class="heading-line left"></div>
+                <p>
+                    At Green Garden, we believe in a greener,
+                    healthier and happier world.
+                </p>
+                <p>
+                    Our mission is to bring nature closer to your
+                    home by providing quality plants, seeds and
+                    gardening essentials.
+                </p>
+                <p>
+                    Whether you are an experienced gardener or
+                    just starting your green journey, we are
+                    here to support you.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="heading-line"></div>
+
+            <div class="contact-grid">
+                <div class="contact-text">
+                    <h3>We'd Love to Hear From You!</h3>
+                    <p>
+                        Have a question, suggestion or just
+                        want to say hello?
+                    </p>
+                    <p>
+                        Fill out the form and we'll get back
+                        to you soon.
+                    </p>
+                </div>
+
+                <form class="contact-form"
+                      action="#contact"
+                      method="get">
+
+                    <div class="form-row">
+                        <div>
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name"
+                                   name="name" required>
+                        </div>
+
+                        <div>
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email"
+                                   name="email" required>
+                        </div>
+                    </div>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message"
+                              rows="5" required></textarea>
+
+                    <button type="submit" class="btn">
+                        Send Message
+                    </button>
+                    <p class="form-note">
+                        Demo form only. Messages are not sent.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container footer-grid">
+        <div>
+            <h3>🌿 GREEN GARDEN</h3>
+            <p>Growing a Greener, Happier Tomorrow</p>
+        </div>
+
+        <div>
+            <h4>Quick Links</h4>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+            <p>support@greengarden.com</p>
+        </div>
+
+        <div>
+            <h4>Follow Us</h4>
+            <p>Facebook | Instagram | Pinterest</p>
+        </div>
+    </div>
+
+    <div class="copyright">
+        © 2026 Green Garden. All rights reserved.
+    </div>
+</footer>
+
+</body>
+</html>
